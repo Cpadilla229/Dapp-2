@@ -127,7 +127,7 @@ console.log('Welcome to OctoUniverse')
 
     fixURL = (url) => {
         if (url.startsWith("api")) {
-            return "https://api.arcadians.io/8" + url.split("https:/").slice(-1)
+            return "https://api.arcadians.io/62" + url.split("https:/").slice(-1)
         }
         else {
             return url + "?format+json"
